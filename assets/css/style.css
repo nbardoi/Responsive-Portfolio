@@ -228,65 +228,50 @@ input[type=submit]:hover{
     color: white;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
+@media screen and (max-width: 1240px) {
+    .name{
+      margin-left: 55px;
+    }
+    #content {
+      width: 80%;
+    }
+    .navigation {
+      margin-right: 55px;
+    }
+}
+@media screen and (max-width: 980px) {
+    .name{
+      margin-left: 55px;
+    }
+    #content {
+      width: 80%;
+    }
+    .navigation {
+      margin-right: 55px;
+    }
+}
 @media screen and (max-width: 768px) {
-    body {
-      background-color: #333;
+   .name{
+      margin-left: 45px;
     }
-  
-    .wrapper {
-      /* Box-model */
-      width: 100%;
-      padding: 20px;
+    #content {
+      width: 80%;
     }
-  
-    #main-content,
-    #sidebar {
-      width: 100%;
-    }
-  
-    #sidebar {
-      margin-top: 40px;
+    .navigation {
+      margin-right: 50px;
     }
 }
-
-@media screen and (max-width: 320px) {
-    body {
-      background-color: #333;
+@media screen and (max-width: 640px) {
+    .name{
+      margin-left: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
     }
-  
-    .wrapper {
-      /* Box-model */
-      width: 100%;
-      padding: 20px;
+    #content {
+      width: 80%;
     }
-  
-    #main-content,
-    #sidebar {
-      width: 100%;
-    }
-  
-    #sidebar {
-      margin-top: 40px;
-    }
-}
-
-@media screen and (max-width: 168px) {
-    body {
-      background-color: #333;
-    }
-  
-    .wrapper {
-      /* Box-model */
-      width: 100%;
-      padding: 20px;
-    }
-  
-    #main-content,
-    #sidebar {
-      width: 100%;
-    }
-  
-    #sidebar {
-      margin-top: 40px;
+    .navigation {
+      padding-right: 10px;
+      margin-right: auto;
     }
 }
